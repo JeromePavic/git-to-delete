@@ -1,3 +1,1 @@
-Euh... je dois ecrire quoi chef ?
-
-ouh la la ça va chier...
+CHEF CHEF JE DOIS ECRIRE QUOI JE SUIS PERDUE :::
