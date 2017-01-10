@@ -9,6 +9,14 @@ public class Poney {
 	private String couleur;
 	private String SUPERPOWERSMEGA;
 
+<<<<<<< HEAD
+=======
+	:o
+	:)
+	:D
+	:()
+
+>>>>>>> Emeline
 
 	public Poney() {
 		super();
