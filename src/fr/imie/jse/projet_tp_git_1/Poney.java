@@ -18,7 +18,7 @@ public class Poney {
 	}
 
 	public void SetCouleur(String couleur) {
-		thid.couleur = couleurs;
+		thid.couleurss = couleurs;
 	}
 
 	public double getPoids() {
