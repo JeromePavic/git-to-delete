@@ -6,9 +6,15 @@ public class Poney {
 	private double taille;
 	private String nom;
 	private double vitesse;
-	
+	private String couleur;
+
+
 	public Poney() {
 		super();
+	}
+
+	public String couleur() {
+		return couleur;
 	}
 
 	public double getPoids() {
@@ -34,6 +40,6 @@ public class Poney {
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
-	
-	
+
+
 }
