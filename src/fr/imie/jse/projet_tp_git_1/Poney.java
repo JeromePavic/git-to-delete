@@ -11,8 +11,12 @@ public class Poney {
 		super();
 	}
 
-	public String couleur() {
+	public String GetCouleur() {
 		return couleur;
+	}
+
+	public void SetCouleur(String couleur) {
+		thid.couleur = couleurs;
 	}
 
 	public double getPoids() {
