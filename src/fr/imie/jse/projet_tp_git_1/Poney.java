@@ -7,6 +7,7 @@ public class Poney {
 	private String nom;
 	private double vitesse;
 	private String couleur;
+	private String SUPERPOWERSMEGA;
 
 
 	public Poney() {
