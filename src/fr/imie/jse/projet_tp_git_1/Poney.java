@@ -12,6 +12,7 @@ public class Poney {
 	:o
 	:)
 	:D
+	:()
 
 
 	public Poney() {
