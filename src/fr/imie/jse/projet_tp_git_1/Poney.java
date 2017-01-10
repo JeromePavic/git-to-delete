@@ -5,6 +5,7 @@ public class Poney {
 	private double poids;
 	private double taille;
 	private String nom;
+	private double vitesse;
 	
 	public Poney() {
 		super();
