@@ -23,7 +23,7 @@ public class Poney {
 	}
 
 	public void SetCouleur(String couleur) {
-		thid.couleurss = couleurs;
+		thid.couleursssssssss = couleurs;
 	}
 
 	public double getPoids() {
