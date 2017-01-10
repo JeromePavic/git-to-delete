@@ -15,7 +15,11 @@ public class Poney {
 	:)
 	:D
 	:()
+<<<<<<< HEAD
 
+>>>>>>> Emeline
+=======
+:)
 >>>>>>> Emeline
 
 	public Poney() {
