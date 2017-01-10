@@ -13,7 +13,7 @@ public class Poney {
 	:)
 	:D
 	:()
-
+:)
 
 	public Poney() {
 		super();
