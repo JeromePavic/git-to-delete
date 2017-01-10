@@ -3,7 +3,7 @@ package fr.imie.jse.projet_tp_git_1;
 public class Jockey {
 	private double poids;
 	private double taille;
-	
+
 	public Jockey() {
 		super();
 	}
@@ -12,7 +12,7 @@ public class Jockey {
 		return poids;
 	}
 
-	public void setPoids(double poids) {
+	public void setPoidscccc(double poids) {
 		this.poids = poids;
 	}
 
