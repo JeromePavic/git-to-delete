@@ -1,2 +1,0 @@
-CHEF CHEF JE DOIS ECRIRE QUOI JE SUIS PERDUE :::
-Elle m'a appelé CHEF !!!!
