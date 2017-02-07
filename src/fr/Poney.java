@@ -1,49 +1,38 @@
-package fr.imie.jse.projet_tp_git_1;
+package fr;
 
 public class Poney {
 
-	private double poids;
-	private double taille;
-	private String nom;
-	private double vitesse;ddddddddddddddd
-	private String couleur;
-	private String SUPERPOWERSMEGA;
-
+	private int id;
+	private String name;
+	private double weight;
+	
+	
 	public Poney() {
 		super();
 	}
-
-	public String GetCouleur() {
-		return couleur;
+	
+	public int getId() {
+		return id;
 	}
-
-	public void SetCouleur(String couleur) {
-		this.couleur = couleur;
+	
+	public void setId(int id) {
+		this.id = id;
 	}
-
-	public double getPoids() {
-		return poids;
+	
+	public String getName() {
+		return name;
 	}
-
-	public void setPoids(double poids) {
-		this.poids = poids;
+	
+	public void setName(String name) {
+		this.name = name;
 	}
-
-	public double getTaille() {
-		return taille;
+	
+	public double getWeight() {
+		return weight;
 	}
-
-	public void setTaille(double taille) {
-		this.taille = taille;
+	
+	public void setWeight(double weight) {
+		this.weight = weight;
 	}
-
-	public String getNom() {
-		return nom;
-	}
-
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-
 
 }

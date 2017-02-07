@@ -1,27 +1,46 @@
-package fr.imie.jse.projet_tp_git_1;
+package fr;
 
 public class Jockey {
-	private double poids;
-	private double taille;
+	
+	private int id;
+	private String firstname;
+	private String lastname;
+	private double weight;
 	
 	public Jockey() {
 		super();
 	}
 
-	public double getPoids() {
-		return poids;
+	public int getId() {
+		return id;
 	}
 
-	public void setPoids(double poids) {
-		this.poids = poids;
+	public void setId(int id) {
+		this.id = id;
 	}
 
-	public double getTaille() {
-		return taille;
+	public String getFirstname() {
+		return firstname;
 	}
 
-	public void setTaille(double taille) {
-		this.taille = taille;
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+
+	public String getLastname() {
+		return lastname;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+
+	public double getWeight() {
+		return weight;
+	}
+
+	public void setWeight(double weight) {
+		this.weight = weight;
 	}
 
 }
