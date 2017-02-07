@@ -16,7 +16,7 @@ public abstract class JdbcJockeyDao implements JockeyDao{
 	}
 
 	@Override
-	public Long createJokey(Jockey j) {
+	public Long createJockey(Jockey j) {
 		
 		try {
 			Statement statement = connection.createStatement();

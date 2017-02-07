@@ -1,6 +1,7 @@
 package Launcher;
 import java.util.Scanner;
 import ConnectionMySQL.ConnectionManager;
+import Menu.Menu;
 
 public class Launcher {
 
@@ -45,32 +46,27 @@ public class Launcher {
 			switch(entryInteger) {
 			
 			case 1:
-				System.out.println("Add a Poney");
+				Menu.menuAddPoney();
 				break;
-			/*case 2:
-				menuHandler.menuFindPlace();
+			case 2:
+				Menu.menuAddJockey();
 				break;
 			case 3:
-				menuHandler.menuEditPlace();
-				break;*/
+				Menu.menuAddCourse();
+				break;
 			case 4:
 				System.out.println("Find a Rank");
 				break;
-			/*case 5:
-				menuHandler.menuAddTrip();
+			case 5:
+				System.out.println("Start Race");
 				break;
 			case 6:
-				menuHandler.menuFindTrip();
 				break;
-			case 7:
-				menuHandler.menuRemoveTrip();
-				break;*/
 			default:
 				System.out.println("Menu option unkown.");
 				continue;
 			}
 
-			
 		}
 		
 		scanner.close();

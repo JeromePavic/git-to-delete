@@ -1,9 +1,5 @@
 package Class;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-
 public class Poney {
 
 	private int id;

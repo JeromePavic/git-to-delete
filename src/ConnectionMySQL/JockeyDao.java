@@ -3,6 +3,6 @@ import Class.Jockey;
 
 public interface JockeyDao {
 	
-		Long createJokey(Jockey j);
-		Long removeJokey(Long id);
+		Long createJockey(Jockey j);
+		Long removeJockey(Long id);
 }

@@ -1,14 +1,20 @@
 package Class;
-import java.sql.Date;
 
 public class Course {
 
 	private int id;
-	private Date date;
+	private String date;
 	
 	public Course() {
 		super();
 	}
+	
+	
+	public Course(String date) {
+		super();
+		this.date = date;
+	}
+
 
 	public int getId() {
 		return id;
@@ -18,11 +24,14 @@ public class Course {
 		this.id = id;
 	}
 
-	public Date getDate() {
+
+	public String getDate() {
 		return date;
 	}
 
-	public void setDate(Date date) {
+	public void setDate(String date) {
 		this.date = date;
 	}
+
+
 }
