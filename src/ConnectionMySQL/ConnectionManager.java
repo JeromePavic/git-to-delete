@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import Class.Poney;
-import fr.imie.javaparadise.model.Place;
+import Class.Jockey;
 
 public class ConnectionManager {
 	

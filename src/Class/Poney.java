@@ -38,22 +38,5 @@ public class Poney {
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
-	
-	public Long createPlace(Poney p) {
-		
-		try {
-			Statement statement = connection.createStatement();
-			statement.executeUpdate("INSERT INTO poney (name, weight) VALUES ('"+p.getName()+"');", Statement.RETURN_GENERATED_KEYS);
-			
-			ResultSet rs = statement.getGeneratedKeys();
-
-			if (rs.next()) {
-				return new Long(rs.getInt(1));
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return null;
-}
 
 }
