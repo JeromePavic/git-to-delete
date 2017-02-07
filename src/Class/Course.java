@@ -1,4 +1,4 @@
-package fr;
+package Class;
 import java.sql.Date;
 
 public class Course {
