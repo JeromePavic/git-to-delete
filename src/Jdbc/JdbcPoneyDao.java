@@ -21,7 +21,7 @@ public abstract class JdbcPoneyDao implements PoneyDao{
 		
 		try {
 			Statement statement = connection.createStatement();
-			statement.executeUpdate("INSERT INTO course (id_course, date_course) VALUES ("+j.getId()+","+j.getDate()+");", Statement.RETURN_GENERATED_KEYS);
+			statement.executeUpdate("INSERT INTO course (id_poney, name, weight) VALUES ("+p.getId()+","+p.getName()+","+p.getWeight()+");", Statement.RETURN_GENERATED_KEYS);
 			
 			ResultSet rs = statement.getGeneratedKeys();
 

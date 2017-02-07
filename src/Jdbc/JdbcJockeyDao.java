@@ -20,7 +20,7 @@ public abstract class JdbcJockeyDao implements JockeyDao{
 		
 		try {
 			Statement statement = connection.createStatement();
-			statement.executeUpdate("INSERT INTO course (id_course, date_course) VALUES ("+j.getId()+","+j.getDate()+");", Statement.RETURN_GENERATED_KEYS);
+			statement.executeUpdate("INSERT INTO course (id_jockey, firstname, lastname, weight) VALUES ("+j.getId()+","+j.getFirstname()+","+j.getLastname()+","+j.getWeight()+");", Statement.RETURN_GENERATED_KEYS);
 			
 			ResultSet rs = statement.getGeneratedKeys();
 
