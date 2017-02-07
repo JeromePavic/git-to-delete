@@ -1,4 +1,4 @@
-package fr;
+package Class;
 
 public class Jockey {
 	
